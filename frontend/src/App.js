@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import { Header } from './components/Header';
+import { Header } from './components/header/Header';
 import { Footer } from './components/footer/Footer';
 import { Users } from './components/Users';
 import { DisplayBoard } from './components/DisplayBoard';

@@ -23,16 +23,14 @@ export const Header = () => {
             </div>
 
             {/* TODO: add horizontal menu for desktop */}
-            {/* <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
-                <div class="top-bar-left">
-                    <h4 class="title-bar-title">Menu</h4>
-                    <ul class="dropdown menu vertical" data-dropdown-menu>
-                        <li class="menu-text"><a href="#">Homepage</a></li>
-                        <li class="menu-text"><a href="#">About us</a></li>
-                        <li class="menu-text"><a href="#">Sign In</a></li>
-                    </ul>
-                </div>
-            </div> */}
+            <div class="desktop-bar">
+                <h4 class="title-bar-title">Menu</h4>
+                <ul class="dropdown menu vertical" data-dropdown-menu>
+                    <li class="menu-text"><a href="#">Homepage</a></li>
+                    <li class="menu-text"><a href="#">About us</a></li>
+                    <li class="menu-text"><a href="#">Sign In</a></li>
+                </ul>
+            </div>
         </div>
     )
 }
