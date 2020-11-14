@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.scss';
 
 import { Header } from './components/header/Header';
@@ -8,6 +9,9 @@ import UserSignIn from './components/UserSignIn';
 import StartScreening from './components/StartScreening';
 import SetUpAccount from './components/SetUpAccount';
 import ChildInformation from './components/ChildInformation';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Homepage from './components/Homepage';
+
 import { getAllUsers, createUser } from './services/UserService'
 
 import calgaryFlamesImg from './assets/images/FOUNDATION_logo_NO_TEXT.jpg';
@@ -96,6 +100,12 @@ class App extends Component {
           </div>
         </div>
 
+        <Switch>
+          <Route exact path='/' component={Homepage} />
+          {/* both /roster and /roster/:number begin with /roster */}
+          <Route path='/sign-in' component={UserSignIn} />
+        </Switch>
+        
         <Footer/>
       </div>
       
