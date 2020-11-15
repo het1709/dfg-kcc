@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import { library, icon, bars } from '@fortawesome/fontawesome-svg-core'
-// import { bars } from '@fortawesome/fontawesome-svg-core'
 import './header.scss';
-
-// library.add(faBars)
-// const bars = icon({ prefix: 'fas', iconName: 'bars' })
 
 class Header extends Component {
     state = {
         hamburgerOpen: false
     }
-    // const bars = window.FontAwesome.icon({ prefix: 'fas', iconName: 'bars' })
+
     render() {
         return (
             <div className="header">
@@ -19,7 +15,6 @@ class Header extends Component {
                     <button class="menu-icon" type="button" data-toggle onClick={() => { (this.state.hamburgerOpen) ? this.setState({ hamburgerOpen: false }) : this.setState({hamburgerOpen: true})} }>
                         <h4 class="title-bar-title">Menu</h4>
                         <i class="fa fa-bars" aria-hidden="true"></i>
-                        {/* <i class="fa fa-bars" aria-hidden="true">{bars = window.FontAwesome.icon({ prefix: 'fas', iconName: 'bars' })}</i> */}
                     </button>
                     </div>
 
@@ -37,8 +32,6 @@ class Header extends Component {
 
                 <div class="desktop-bar">
                     <h4 class="title-bar-title">Menu</h4>
-                    <button class="menu-icon dark" type="button" data-toggle=""></button>
-
                     <ul class="dropdown menu vertical" data-dropdown-menu>
                         <li class="menu-text"><a href="/">Homepage</a></li>
                         <li class="menu-text"><a href="/about-us">About us</a></li>
