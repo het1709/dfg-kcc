@@ -61,6 +61,12 @@ const SetUpAccount = () => {
                   <input type="password" className="form-control" name="confirmpassword" id="confirmPassword" aria-describedby="confirmPasswordInput" placeholder=" " />
               </div>
             </div>
+            <div className="row">
+              <div className="col-md-12 legal-disclaimer">
+              <label htmlFor="confirmPassword">By checking this box, I certify that I have read and understood the <a href="https://docs.google.com/document/d/1vcW5uLzuHwgb1XZ1BFr2oBh98uoPZSng/edit" target="_blank">Parental Release of Liability Disclaimer</a></label>
+              <input type="checkbox" className="form-control" name="legaldisclaimer" id="legaldisclaimer" aria-describedby="legalDisclaimerCheckbox" placeholder=" " />
+              </div>
+            </div>
             <div className="row button-row">
               <p><a href={"/"} title="Back to previous page">Back</a></p>
             <a href="/build-profile">
