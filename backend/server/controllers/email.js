@@ -16,13 +16,17 @@ let transporter = nodemailer.createTransport({
   }
 });
 
-let mailOptions = {
-  to: EMAIL_TO,
-  subject: EMAIL_SUBJECT,
-  text: EMAIL_BODY
-};
-
 const sendEmail = async (req, res, next) => {
+  const {
+    user_email
+  } = req.body;
+  console.log(user_email);
+
+  let mailOptions = {
+    to: user_email,
+    subject: EMAIL_SUBJECT,
+    text: EMAIL_BODY
+  };
   console.log(`sendEmail is called`);
   try {
     transporter.sendMail(mailOptions, function(error, info) {
