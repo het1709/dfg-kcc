@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.scss';
 
-import { Header } from './components/header/Header';
+import Header from './components/header/Header';
 import { Footer } from './components/footer/Footer';
 import UserSignIn from './components/UserSignIn';
 import StartScreening from './components/StartScreening';
