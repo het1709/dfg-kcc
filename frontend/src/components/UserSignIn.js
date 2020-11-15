@@ -8,13 +8,13 @@ const UserSignIn = ({ onChangeForm, userSignIn }) => {
                 <h2>Registered users:</h2>
                 <form>
                   <div className="row">
-                    <div className="form-group col-md-6">
+                    <div className="form-group col-md-12">
                       <label htmlFor="exampleInputEmail1">Email address:</label>
                       <input type="text" onChange={(e) => onChangeForm(e)} className="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="user@domain.com" />
                     </div>
                   </div>
                   <div className="row">
-                    <div className="form-group col-md-6">
+                    <div className="form-group col-md-12">
                       <label htmlFor="exampleInputPassword1">Password:</label>
                       <input type="text" onChange={(e) => onChangeForm(e)} className="form-control" name="password" id="password" placeholder="" />
                     </div>
