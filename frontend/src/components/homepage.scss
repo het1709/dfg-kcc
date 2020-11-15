@@ -13,11 +13,16 @@ h2, h3 {
     height: 6rem;
     margin-top: 2rem;
   }
+
+  .welcome-sign-in-header h1 {
+    font-size: 3rem;
+    margin: 4rem 1rem 1rem;
+  }
 }
 
 .sign-in-contents {
   margin: 3.5rem;
-  
+
   .start-screening-container {
     padding-top: 2rem;
     @media screen and (min-width: 1050px) {
@@ -26,4 +31,13 @@ h2, h3 {
       padding-top: 0;
     }
   }
+}
+
+@media (min-width: 768px) {
+
+  .welcome-sign-in-header h1 {
+    font-size: 4rem;
+    margin: 3rem;
+  }
+
 }
