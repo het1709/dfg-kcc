@@ -61,7 +61,7 @@ const SetUpAccount = ({ onChangeForm, setUpAccount }) => {
                   <input type="text" onChange={(e) => onChangeForm(e)} className="form-control" name="confirmpassword" id="confirmPassword" aria-describedby="confirmPasswordInput" placeholder=" " />
               </div>
             </div>
-            <div className="row">
+            <div className="row button-row">
               <p><a href={"/"} title="Back to previous page">Back</a></p>
             <a href="/build-profile">
               <button type="button" onClick={(e) => setUpAccount()} className="btn btn-danger">Continue</button>
