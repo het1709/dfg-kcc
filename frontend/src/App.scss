@@ -79,6 +79,11 @@ a:hover {
 .avatars img {
   max-width: 14.666%;
   margin: .5rem;
+  opacity: .6;
+}
+
+.avatars img:hover {
+  opacity: 1;
 }
 
 h2.childs-info {
