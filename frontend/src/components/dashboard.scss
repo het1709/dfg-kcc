@@ -1,17 +1,36 @@
-// @import "foundation/components/range-slider";
+.energy,
+.platelet,
+.pain ,
+.where-exercise {
+  margin-top: 2rem;
+}
 
-.welcome-message {
+.energy-inputs {
   display: flex;
+  margin-top: 2rem;
+}
 
-  h1 {
-    justify-content: flex-end;
-    align-items: space-between;
-    text-align: right;
-    order: 2;
+.energy-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  img {
+    max-width: 35%;
   }
+}
 
-  .child-profile {
-    order: 1;
-    justify-content: flex-start;
+.energy-images-faces {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  img {
+    max-height: 8rem;
   }
+}
+
+.where-exercise-inputs {
+  display: flex;
+  margin-bottom: 4rem;
 }
