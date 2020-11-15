@@ -20,9 +20,9 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../../frontend/build')));
 app.use(expressValidator());
 
-app.use('/', indexRouter);
-app.use('/api', usersRouter);
-app.use('/recommendations', recommendationsRouter);
-app.use('/activity', activityRouter);
+app.use('/api', indexRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/recommendations', recommendationsRouter);
+app.use('/api/activity', activityRouter);
 
 export default app;
