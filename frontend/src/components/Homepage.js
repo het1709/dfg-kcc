@@ -45,12 +45,12 @@ class Homepage extends Component {
                         <img src={calgaryFlamesImg} alt="" className="flames-foundation-logo" />
                 </div>
                 <div className="row sign-in-contents">
-                <div className="col-md-6">
-                    <UserSignIn />
-                </div>
-                <div className="col-md-5 start-screening-container">
-                    <StartScreening />
-                </div>
+                    <div className="col-md-6 col-sm-12 user-sign-in">
+                        <UserSignIn />
+                    </div>
+                    <div className="col-md-6 start-screening-container">
+                        <StartScreening />
+                    </div>
                 </div>
             </>
         );
