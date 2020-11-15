@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../../frontend/build')));
 app.use(expressValidator());
 
-app.use('/api', indexRouter);
+app.use('/', indexRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/recommendations', recommendationsRouter);
 app.use('/api/activity', activityRouter);
