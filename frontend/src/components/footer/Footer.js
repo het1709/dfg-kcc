@@ -14,6 +14,9 @@ export const Footer = () => {
               <p>Copyright &copy; 2020 Kids Cancer Care Foundation of Alberta. All rights reserved</p>
             </div>
             <div className="footer-right col-md-6">
+              {/* <i class="fi-social-instagram"></i>
+              <i class="fi-social-instagram"></i>
+              <i class="fi-social-twitter"></i> */}
               <p><a href={"#"} className="privacy-link">Privacy Policy</a></p>
               <p><a href={"#"} className="terms-of-use-link">Terms of Use</a></p>
             </div>

@@ -1,12 +1,3 @@
-.welcome-sign-in {
-  display: flex;
-  justify-content: space-around;
-
-  .flames-foundation-logo {
-    height: 2rem;
-  }
-}
-
 .App {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
@@ -31,4 +22,8 @@
 
 main {
   padding: 2rem;
+  
+  h1, h2, h3, h4 {
+    color: #0073ae;
+  }
 }

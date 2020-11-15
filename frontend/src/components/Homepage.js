@@ -2,7 +2,10 @@ import React, { Component }  from 'react';
 import UserSignIn from './UserSignIn';
 import StartScreening from './StartScreening';
 
+import './homepage.scss';
+
 import calgaryFlamesImg from './../assets/images/foundation-logo.jpg';
+import powerbotPopUp from './../assets/images/powerbots/powerbot-popup-hi.png';
 
 class Homepage extends Component {
     state = {
@@ -33,17 +36,19 @@ class Homepage extends Component {
     render() {
         return (
             <>
-                <div className="row">
-                <div className="col-md-12 welcome-sign-in ">
-                    <h1>Welcome!</h1>
-                    <img src={calgaryFlamesImg} alt="" className="flames-foundation-logo" />
+                <div className="row sign-in">
+                    <div className="col-md-6 welcome-sign-in-header">
+                        <img src={powerbotPopUp} alt="Powerbot waving hello" className="powerbot-hi" />
+                        <h1>Welcome!</h1>
+                    </div>
+                    <div className="col-md-4"></div>
+                        <img src={calgaryFlamesImg} alt="" className="flames-foundation-logo" />
                 </div>
-                </div>
-                <div className="row">
+                <div className="row sign-in-contents">
                 <div className="col-md-6">
                     <UserSignIn />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-5 start-screening-container">
                     <StartScreening />
                 </div>
                 </div>
