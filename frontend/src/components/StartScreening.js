@@ -15,7 +15,7 @@ const StartScreening = ({ onChangeForm, startScreening }) => {
                 </div>
             </div>
             <div className="row">
-                <div className="btn">
+                <div className="col-md-12">
                     <a href="/set-up">
                         <button type="button" onClick={(e) => startScreening()} className="btn btn-danger">Sign Up &amp; Start Screening</button>
                     </a>

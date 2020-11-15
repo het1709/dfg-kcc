@@ -24,9 +24,9 @@ const AboutUs = () => {
                         <li><span class="non-emphasis-bold">Movement recommendation(s):</span> Based on your child's unique condition, and any cancer related side effects they may be experiencing, the website will link them to customized physical activity options. Each time your child engages in physical activity, they will earn rewards!</li>
                         <li><span className="non-emphasis-bold">Coming Soon!<br />Connect and interact with peers:</span> We plan to create a friend suggestion tool to connect your child with other children and youth who are also navigating their cancer journey. This will help to promote peer support and encourage your child to keep moving!</li>
                     </ol>
-                    <p><a href={"https://www.kidscancercare.ab.ca/"}>Visit the Kids Cancer Care main website</a>.</p>
+                    <p><a href={"https://www.kidscancercare.ab.ca/"} target="_blank">Visit the Kids Cancer Care main website</a>.</p>
                 </div>
-            </div>    
+            </div>
         </div>
     );
 }
