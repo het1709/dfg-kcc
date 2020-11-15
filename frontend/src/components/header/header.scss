@@ -4,7 +4,6 @@
     background: hsl(54, 100%, 45%);
     padding: 2rem;
     transition: transform 0.3s ease-in-out;
-    margin-bottom: 2rem;
 } 
 
 .header li {
@@ -24,28 +23,13 @@
     top: 0; 
     right: 0;
     background: hsl(54, 100%, 45%);
-}
-
-.hamburger-open {
-    display: none;
+    text-align: right;
 }
 
 .desktop-bar {
     display: none;
 }
 
-/* TODO: This should toggle on hamburger click instead of screen width */
-// @media screen and (min-width: 1050px) {
-//     .title-bar {
-//         display: none;
-//     }
-
-//     .top-bar {
-//         display: block;
-//     }
-// }
-
-/* TODO: Hide hamburger for desktop and style desktop menu */
 @media screen and (min-width: 1050px) {
     .hamburger {
         display: none;
