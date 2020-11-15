@@ -15,7 +15,7 @@ const StartScreening = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="btn">
+                <div className="col-md-12">
                     <a href="/set-up">
                         <button type="button" className="btn btn-danger">Sign Up &amp; Start Screening</button>
                     </a>

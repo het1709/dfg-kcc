@@ -37,6 +37,15 @@ main {
   }
 }
 
+a {
+  color: #dc3545;
+}
+
+a:hover {
+  color: #0073ae;
+  text-decoration: none;
+}
+
 .powerbot-hi {
   margin-left: -4rem;
 }
@@ -51,8 +60,11 @@ main {
   height: 3rem;
 }
 
-button {
+.btn {
     text-transform: uppercase;
+    padding: 0.75rem 3rem;
+    border-radius: 2rem;
+    font-weight: bold;
 }
 
 .button-row {
