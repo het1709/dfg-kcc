@@ -20,7 +20,7 @@ const ChildInformation = () => {
                 <input type="text" className="form-control" name="childnickname" id="childnickname" aria-describedby="childNicknameInput" placeholder=" " />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="addressCity">Date of Birth (DD/MM/YYY)</label>
+                <label htmlFor="addressCity">Date of Birth (DD/MM/YYYY)</label>
                 <input type="text" className="form-control" name="addresscity" id="addresscity" aria-describedby="addressCityInput" placeholder=" " />
               </div>
             </div>
