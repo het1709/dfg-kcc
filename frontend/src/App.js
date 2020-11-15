@@ -11,7 +11,6 @@ import SetUpAccount from './components/SetUpAccount';
 import BuildProfile from './components/BuildProfile';
 import CreateProfileIntercept from './components/CreateProfileIntercept';
 import {Dashboard} from './components/Dashboard';
-import ChildInformation from './components/ChildInformation';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Homepage from './components/Homepage';
 

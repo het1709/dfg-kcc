@@ -1,0 +1,32 @@
+h2, h3 {
+  padding-bottom: 2rem;
+}
+
+.sign-in {
+  display: flex;
+
+  .welcome-sign-in-header {
+    display: flex;
+  }
+
+  .flames-foundation-logo {
+    height: 6rem;
+    margin-top: 2rem;
+  }
+}
+
+.sign-in-contents {
+  margin: 3.5rem;
+  
+  .start-screening-container {
+    padding-top: 2rem;
+    @media screen and (min-width: 1050px) {
+      border-left: 3px dashed #e8cf00;
+      padding-left: 12rem;
+      padding-top: 0;
+    }
+  }
+}
+
+
+

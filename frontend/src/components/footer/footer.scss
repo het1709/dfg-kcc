@@ -5,15 +5,21 @@ footer {
   display: flex;
 
   .footer-logo {
-    max-width: 50%;
+    max-width: 40%;
+    margin-bottom: 1.5rem;
+
     @media screen and (min-width: 1050px) {
-      max-width: 20%;
+      max-width: 35%;
     }
     
   }
   
   .footer-left {
     text-align: left;
+    
+    p {
+      margin-bottom: 0.15rem;
+    }
   }
   
   .footer-right {
@@ -22,6 +28,21 @@ footer {
     a {
       color: #e8cf00;
     }
+
+    p {
+      padding-top: 2rem;
+    }
+    
+    @media screen and (min-width: 1050px) {
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      p {
+        padding-top: 0;
+      }
+    }
+
+    
     
     .privacy-link {
       padding-right: 2rem;

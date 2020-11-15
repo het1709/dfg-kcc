@@ -3,7 +3,7 @@ import React from 'react';
 const StartScreening = ({ onChangeForm, startScreening }) => {
     return (
         <div className="start-screening">
-            <h4>First time here?</h4>
+            <h3>First time here?</h3>
             <div className="row">
                 <div className="form-group col-md-12">
                     <label htmlFor="emailAddress">Email Address</label>
