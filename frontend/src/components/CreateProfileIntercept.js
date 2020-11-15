@@ -1,7 +1,7 @@
 import React from 'react';
 
-import powerBotJoy from '../assets/images/powerbot-jumping-joy.png';
-import avatarSample from '../assets/images/avatar-03.png';
+import powerBotJoy from '../assets/images/powerbots/powerbot-jumping-joy.png';
+import avatarSample from '../assets/images/avatars/avatar-03.png';
 
 const CreateProfileIntercept = ({ profileIntercept }) => {
     return(

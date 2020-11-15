@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import UserSignIn from './UserSignIn';
 import StartScreening from './StartScreening';
 
-import calgaryFlamesImg from './../assets/images/FOUNDATION_logo_NO_TEXT.jpg';
+import calgaryFlamesImg from './../assets/images/foundation-logo.jpg';
 
 class Homepage extends Component {
     state = {

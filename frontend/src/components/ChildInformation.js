@@ -31,7 +31,6 @@ const ChildInformation = ({ onChangeForm, childInformation }) => {
               </div>
             </div>
             <div className="row">
-              {/* TODO: Add progress bar */}
               <a href="/book-an-appointment">
                 <button type="button" onClick={(e) => childInformation()} className="btn btn-danger">Submit</button>
               </a>
