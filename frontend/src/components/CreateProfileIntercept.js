@@ -15,7 +15,7 @@ const CreateProfileIntercept = ({ profileIntercept }) => {
           </div>
           <div className="row">
             <div className="col-md-2">
-              <img src={avatarSample} alt="Profile avatar" className="" />
+              <img src={avatarSample} alt="Green monster holding a heart" className="" />
               <img src={powerBotJoy} alt="Happy powerbot jumping for joy" className="" />
             </div>
           </div>
