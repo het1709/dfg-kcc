@@ -1,6 +1,8 @@
 import React, { Component }  from 'react';
-import CreateUser from './CreateUser';
-import { DisplayBoard } from './DisplayBoard';
+import UserSignIn from './UserSignIn';
+import StartScreening from './StartScreening';
+
+import calgaryFlamesImg from './../assets/images/FOUNDATION_logo_NO_TEXT.jpg';
 
 class Homepage extends Component {
     state = {
@@ -30,24 +32,22 @@ class Homepage extends Component {
 
     render() {
         return (
-            <div className="container">
+            <>
                 <div className="row">
-                <div className="col-md-8">
-                    <CreateUser 
-                        user={this.state.user}
-                        onChangeForm={this.onChangeForm}
-                        createUser={this.createUser}
-                        >
-                    </CreateUser>
-                </div>
-                <div className="col-md-4">
-                    <DisplayBoard
-                        numberOfUsers={this.state.numberOfUsers}
-                    >
-                    </DisplayBoard>
+                <div className="col-md-12 welcome-sign-in ">
+                    <h1>Welcome!</h1>
+                    <img src={calgaryFlamesImg} alt="" className="flames-foundation-logo" />
                 </div>
                 </div>
-            </div>
+                <div className="row">
+                <div className="col-md-6">
+                    <UserSignIn />
+                </div>
+                <div className="col-md-6">
+                    <StartScreening />
+                </div>
+                </div>
+            </>
         );
     }
 }

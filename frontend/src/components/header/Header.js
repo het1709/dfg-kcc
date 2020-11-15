@@ -29,6 +29,11 @@ export const Header = () => {
                     <li class="menu-text"><a href="/">Homepage</a></li>
                     <li class="menu-text"><a href="/about-us">About us</a></li>
                     <li class="menu-text"><a href="/sign-in">Sign In</a></li>
+                    {/* <li class="menu-text"><a href="/set-up">Set Up Account</a></li> */}
+                    {/* <li class="menu-text"><a href="/start-screening">Start Screening</a></li> */}
+                    {/* <li class="menu-text"><a href="/build-profile">BuildProfile</a></li>
+                    <li class="menu-text"><a href="/dashboard">Dashboard</a></li> */}
+                    {/* <li class="menu-text"><a href="/todo">todo</a></li> */}
                 </ul>
             </div>
         </div>

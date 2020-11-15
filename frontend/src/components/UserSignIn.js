@@ -19,7 +19,9 @@ const UserSignIn = ({ onChangeForm, userSignIn }) => {
                       <input type="text" onChange={(e) => onChangeForm(e)} className="form-control" name="password" id="password" placeholder="" />
                     </div>
                   </div>
-                  <button type="button" onClick= {(e) => userSignIn()} className="btn btn-danger">Sign In</button>
+                <a href="/dashboard">
+                  <button type="button" onClick={(e) => userSignIn()} className="btn btn-danger">Sign In</button>
+                </a>
                 </form>
               </div>
             </div>
