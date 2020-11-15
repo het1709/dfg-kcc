@@ -12,7 +12,6 @@ import powerbotFaceSmile from '../assets/images/powerbots/powerbot-face-smile.pn
 import powerbotFaceMeh from '../assets/images/powerbots/powerbot-face-meh.png';
 import powerbotFaceAngry from '../assets/images/powerbots/powerbot-face-angry.png';
 
-
 export const Dashboard = () => {
     return (
         <div className="dashboard container">
@@ -41,8 +40,34 @@ export const Dashboard = () => {
                         <img src={powerbotLowEnergy} alt="" />
                         <img src={powerbotSitting} alt="" />
                         <img src={powerbotRunning} alt="" />
+                        <label htmlFor="lowEnergyInput">Low</label>
+                        <input type="checkbox" className="form-control" name="lowEnergyInput" id="lowenergy" aria-describedby="lowEnergyCheckbox" />
+                        <label htmlFor="mediumEnergyInput">Medium</label>
+                        <input type="checkbox" className="form-control" name="mediumEnergyInput" id="mediumenergy" aria-describedby="mediumEnergyCheckbox" />
+                        <label htmlFor="highEnergyInput">High</label>
+                        <input type="checkbox" className="form-control" name="highEnergyInput" id="highenergy" aria-describedby="highEnergyCheckbox" />
+
                         <p><span className="non-emphasis-bold">2. What is your platelet level?</span> Check in with your parents if you are unsure.</p>
+                        <img src={powerbotLowEnergy} alt="" />
+                        <img src={powerbotConfused} alt="" />
+                        <img src={powerbotRecharging} alt="" />
+                        <label htmlFor="lowPlatletInput">Low</label>
+                        <input type="checkbox" className="form-control" name="lowPlatletInput" id="lowplatlet" aria-describedby="lowPlatletCheckbox" />
+                        <label htmlFor="mediumPlatletInput">Medium</label>
+                        <input type="checkbox" className="form-control" name="mediumPlatletInput" id="mediumplatlet" aria-describedby="mediumPlatletCheckbox" />
+                        <label htmlFor="highPlatletInput">High</label>
+                        <input type="checkbox" className="form-control" name="highPlatletInput" id="highplatlet" aria-describedby="highPlatletCheckbox" />
+
                         <p><span className="non-emphasis-bold">3. Do you feel any pain today?</span></p>
+                        <img src={powerbotFaceAngry} alt="" />
+                        <img src={powerbotFaceMeh} alt="" />
+                        <img src={powerbotFaceSmile} alt="" />
+                        <label htmlFor="lowEnergyInput">Low</label>
+                        <input type="checkbox" className="form-control" name="lowEnergyInput" id="lowenergy" aria-describedby="lowEnergyCheckbox" />
+                        <label htmlFor="mediumEnergyInput">Medium</label>
+                        <input type="checkbox" className="form-control" name="mediumEnergyInput" id="mediumenergy" aria-describedby="mediumEnergyCheckbox" />
+                        <label htmlFor="highEnergyInput">High</label>
+                        <input type="checkbox" className="form-control" name="highEnergyInput" id="highenergy" aria-describedby="highEnergyCheckbox" />
 
                         <p><span className="non-emphasis-bold">4. Where would you like to exercise today?</span></p>
                         <label htmlFor="exerciseIndoorsInput">Indoors</label>
