@@ -9,6 +9,7 @@ import UserSignIn from './components/UserSignIn';
 import StartScreening from './components/StartScreening';
 import SetUpAccount from './components/SetUpAccount';
 import BuildProfile from './components/BuildProfile';
+import CreateProfileIntercept from './components/CreateProfileIntercept';
 import {Dashboard} from './components/Dashboard';
 import ChildInformation from './components/ChildInformation';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -63,6 +64,7 @@ class App extends Component {
             <Route path='/start-screening' component={StartScreening} />
             <Route path='/build-profile' component={BuildProfile} />
             <Route path='/dashboard' component={Dashboard} />
+            <Route path='/book-an-appointment' component={CreateProfileIntercept} />
           </Switch>
         </main>
         <Footer/>
