@@ -53,21 +53,21 @@ export const Dashboard = () => {
                         <img src={powerbotRecharging} alt="" />
                         <label htmlFor="lowPlatletInput">Low</label>
                         <input type="checkbox" className="form-control" name="lowPlatletInput" id="lowplatlet" aria-describedby="lowPlatletCheckbox" />
-                        <label htmlFor="mediumPlatletInput">Medium</label>
-                        <input type="checkbox" className="form-control" name="mediumPlatletInput" id="mediumplatlet" aria-describedby="mediumPlatletCheckbox" />
-                        <label htmlFor="highPlatletInput">High</label>
-                        <input type="checkbox" className="form-control" name="highPlatletInput" id="highplatlet" aria-describedby="highPlatletCheckbox" />
+                        <label htmlFor="unsurePlatletInput">Unsure</label>
+                        <input type="checkbox" className="form-control" name="unsurePlatletInput" id="unsureplatlet" aria-describedby="unsurePlatletCheckbox" />
+                        <label htmlFor="normalPlatletInput">Normal</label>
+                        <input type="checkbox" className="form-control" name="normalPlatletInput" id="normalplatlet" aria-describedby="normalPlatletCheckbox" />
 
                         <p><span className="non-emphasis-bold">3. Do you feel any pain today?</span></p>
                         <img src={powerbotFaceAngry} alt="" />
                         <img src={powerbotFaceMeh} alt="" />
                         <img src={powerbotFaceSmile} alt="" />
-                        <label htmlFor="lowEnergyInput">Low</label>
-                        <input type="checkbox" className="form-control" name="lowEnergyInput" id="lowenergy" aria-describedby="lowEnergyCheckbox" />
-                        <label htmlFor="mediumEnergyInput">Medium</label>
-                        <input type="checkbox" className="form-control" name="mediumEnergyInput" id="mediumenergy" aria-describedby="mediumEnergyCheckbox" />
-                        <label htmlFor="highEnergyInput">High</label>
-                        <input type="checkbox" className="form-control" name="highEnergyInput" id="highenergy" aria-describedby="highEnergyCheckbox" />
+                        <label htmlFor="yesPainInput">Yes</label>
+                        <input type="checkbox" className="form-control" name="yesPainInput" id="yespain" aria-describedby="yesPainCheckbox" />
+                        <label htmlFor="unsurePainInput">Unsure</label>
+                        <input type="checkbox" className="form-control" name="unsurePainInput" id="unsurepain" aria-describedby="unsurePainCheckbox" />
+                        <label htmlFor="noPainInput">No</label>
+                        <input type="checkbox" className="form-control" name="noPainInput" id="nopain" aria-describedby="noPainCheckbox" />
 
                         <p><span className="non-emphasis-bold">4. Where would you like to exercise today?</span></p>
                         <label htmlFor="exerciseIndoorsInput">Indoors</label>
