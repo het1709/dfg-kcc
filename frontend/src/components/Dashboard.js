@@ -69,7 +69,7 @@ export const Dashboard = () => {
 
             <div className="row">
                 <div className="col-md-12 pain">
-                    <p><span className="non-emphasis-bold">2. What is your platelet level?</span> Check in with your parents if you are unsure.</p>
+                    <p><span className="non-emphasis-bold">3. Do you feel any pain?</span></p>
                     <div className="energy-inputs">
                         <label htmlFor="yesPainInput">Yes</label>
                         <input type="checkbox" className="form-control" name="yesPainInput" id="yespain" aria-describedby="yesPainCheckbox" />
