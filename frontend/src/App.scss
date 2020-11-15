@@ -1,13 +1,17 @@
+@font-face {
+font-family: 'KCCFAsolid-Regular';
+src: url('./assets/fonts/KCCFAsolid-Regular.ttf') format('truetype'),
+     url('./assets/fonts/KCCFAsolid-Regular-webfont.woff2') format('woff2'),
+     url('./assets/fonts/KCCFAsolid-Regular-webfont.woff') format('woff');
+font-weight: normal;
+}
+
 .App {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  h1, h2, h3, h4 {
-    // font-family: 'KCCFAsolid-Regular';
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,9 +26,11 @@
 
 main {
   padding: 3rem 2.5rem 4rem 2.5rem;
-  
+
   h1, h2, h3, h4 {
     color: #0073ae;
+    font-family: 'KCCFAsolid-Regular', sans-serif;
+    font-weight: normal;
   }
 }
 
