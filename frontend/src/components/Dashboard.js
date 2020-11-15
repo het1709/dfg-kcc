@@ -30,7 +30,6 @@ export const Dashboard = ({ userActivity }) => {
                             <input type="hidden" />
                         </div>
                         <p><span className="non-emphasis-bold">2. What is your platelet level?</span> Check in with your parents if you are unsure.</p>
-                        ∂
                         <p><span className="non-emphasis-bold">3. Do you feel any pain today?</span></p>
 
                         <p><span className="non-emphasis-bold">4. Where would you like to exercise today?</span></p>
