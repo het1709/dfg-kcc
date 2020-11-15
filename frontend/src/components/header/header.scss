@@ -1,10 +1,15 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: hsl(54, 100%, 45%);
-    padding: 2rem;
+    padding: 1rem;
     transition: transform 0.3s ease-in-out;
     color: #dc3545;
+    @media screen and (min-width: 1050px) {
+        padding: 2rem;
+    }
 } 
 
 .header li {
@@ -19,20 +24,46 @@
 }
 
 .hamburger {
-    padding-right: 5px;
-    position: absolute;
-    top: 0; 
-    right: 0;
     background: hsl(54, 100%, 45%);
     text-align: right;
 }
 
+.title-bar-title {
+    text-transform: uppercase;
+    @media screen and (min-width: 1050px) {
+        display: none;
+    }
+}
+
 .hamburger-open {
-    li a {
+    position: absolute;
+    margin-top: 2rem;
+    top: 56px;
+    right: 0;
+    z-index: 50;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        padding: 1rem 2rem;
+        text-align: left;
+        border-bottom: 1px solid white;
+    }
+    li:hover {
+        background-color: #0073ae;
+    }
+    
+    a {
         color: #fff;
     }
+    a:hover {
+        text-decoration: none;
+    }
+
     background-color: #dc3545;
-    top: 40px;
+    
 }
 
 .hamburger button {
