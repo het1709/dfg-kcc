@@ -19,9 +19,6 @@ class Header extends Component {
                 {this.state.hamburgerOpen && (
                 <div class="hamburger-open hamburger" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
                     <div class="top-bar-left">
-                        <button class="menu-icon" type="button" data-toggle onClick={() => { (this.state.hamburgerOpen) ? this.setState({ hamburgerOpen: false }) : this.setState({ hamburgerOpen: true }) }}>
-                            <h4 class="title-bar-title">Menu</h4>
-                        </button>
                         <ul class="dropdown menu vertical" data-dropdown-menu>
                             <li class="menu-text"><a href="/">Homepage</a></li>
                             <li class="menu-text"><a href="/about-us">About us</a></li>

@@ -4,6 +4,7 @@
     background: hsl(54, 100%, 45%);
     padding: 2rem;
     transition: transform 0.3s ease-in-out;
+    color: #dc3545;
 } 
 
 .header li {
@@ -24,6 +25,20 @@
     right: 0;
     background: hsl(54, 100%, 45%);
     text-align: right;
+}
+
+.hamburger-open {
+    li a {
+        color: #fff;
+    }
+    background-color: #dc3545;
+    top: 40px;
+}
+
+.hamburger button {
+    border: 0;
+    background: hsl(54, 100%, 45%);
+    color: #dc3545;
 }
 
 .desktop-bar {
