@@ -68,7 +68,7 @@ const BuildProfile = () => {
               <a href={"#"}><img src={avatar19} alt="Fuzzy blue monster with three eyes smiling and waving" /></a>
               <a href={"#"}><img src={avatar20} alt="Yellow monster with googley eyes sticking out tongue" /></a>
               <a href={"#"}><img src={avatar21} alt="One eyed red monster with horns smiling" /></a>
-              <a href={"#"}><img src={avatar22} alt="Fuzzy green one eyed monster smiling and waving " /></a>
+              <a href={"#"}><img src={avatar22} alt="Fuzzy green one eyed monster smiling and waving" /></a>
               <a href={"#"}><img src={avatar23} alt="Long body red one eyed monster smiling and waving" /></a>
               <a href={"#"}><img src={avatar24} alt="Dark blue monster with long legs smiling" /></a>
             </div>
