@@ -1,0 +1,48 @@
+.child-profile {
+  display: flex;
+
+  img {
+    max-height: 100px;
+    padding-right: 2rem;
+  }
+
+  .profile-info-with-edit-link {
+    margin-top: 1rem;
+  }
+}
+
+.heading-right-side {
+  text-align: center;
+  justify-content: center;
+  background-color: #0073ae;
+  padding: 2rem;
+
+  p {
+    color: #fff;
+    margin-bottom: 2.5rem;
+    padding: 0 2rem;
+  }
+}
+
+
+.red-text {
+  color: #ef3e42;
+}
+
+.exercise1,
+.exercise2 {
+  margin-top: 4rem;
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+}
+
+.activity-content {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  @media screen and (min-width: 1050px) {
+    margin-top: 4rem;
+    padding-left: 4rem;
+  }
+}
