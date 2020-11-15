@@ -11,7 +11,7 @@ const StartScreening = () => {
                 </div>
                 <div className="form-group col-md-12">
                     <label htmlFor="createPassword">Create a Password (min. X characters)</label>
-                    <input type="text" className="form-control" name="createPassword" id="createPassword" aria-describedby="createPasswordInput" placeholder=" " />
+                    <input type="text" className="form-control" type="password" name="createPassword" id="createPassword" aria-describedby="createPasswordInput" placeholder=" " />
                 </div>
             </div>
             <div className="row">
