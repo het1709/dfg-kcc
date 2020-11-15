@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserSignIn = ({ onChangeForm, userSignIn }) => {
+const UserSignIn = () => {
     return(
         <div className="container">
             <div className="row">
@@ -16,11 +16,11 @@ const UserSignIn = ({ onChangeForm, userSignIn }) => {
                   <div className="row">
                     <div className="form-group col-md-12">
                       <label htmlFor="exampleInputPassword1">Password:</label>
-                      <input type="text" onChange={(e) => onChangeForm(e)} className="form-control" name="password" id="password" placeholder="" />
+                      <input type="password" onChange={(e) => onChangeForm(e)} className="form-control" name="password" id="password" placeholder="" />
                     </div>
                   </div>
                 <a href="/dashboard">
-                  <button type="button" onClick={(e) => userSignIn()} className="btn btn-danger">Sign In</button>
+                  <button type="button" className="btn btn-danger">Sign In</button>
                 </a>
                 </form>
               </div>
