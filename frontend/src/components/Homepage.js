@@ -17,7 +17,9 @@ class Homepage extends Component {
                         <h1>Welcome!</h1>
                     </div>
                     <div className="col-md-4"></div>
-                        <img src={calgaryFlamesImg} alt="" className="flames-foundation-logo" />
+                        <a href="https://calgaryflamesfoundation.com/" target="_blank" title="Link goes to Calgary Flames Foundation website">
+                            <img src={calgaryFlamesImg} alt="Calgary Flames Foundation" className="flames-foundation-logo" />
+                        </a>
                 </div>
                 <div className="row sign-in-contents">
                     <div className="col-md-6 col-sm-12 user-sign-in">
