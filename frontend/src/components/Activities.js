@@ -4,7 +4,7 @@ import './activities.scss';
 
 import avatarSample from '../assets/images/avatars/avatar-03.png';
 
-const Activities = ( {activitiesBookAppt} ) => {
+const Activities = () => {
     return(
         <div className="container">
             <div className="row">
@@ -21,7 +21,9 @@ const Activities = ( {activitiesBookAppt} ) => {
               </div>
               <div className="col-md-5 heading-right-side">
                 <p>If something changes in your treatment/symptoms health, please let us know!</p>
-                <button type="button" onClick= {(e) => activitiesBookAppt()} className="btn btn-danger">Book an appointment</button>
+                <a href="https://calendly.com/power-movement" target="_blank">
+                  <button type="button" className="btn btn-danger">Book an appointment</button>
+                </a>
               </div>
             </div>  
             <div className="row exercise1">
