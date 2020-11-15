@@ -25,6 +25,8 @@ footer {
   .footer-right {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
     a {
       color: #e8cf00;
     }
@@ -34,9 +36,7 @@ footer {
     }
     
     @media screen and (min-width: 1050px) {
-      justify-content: flex-end;
-      align-items: flex-end;
-      
+
       p {
         padding-top: 0;
       }
@@ -58,11 +58,10 @@ footer {
 .social {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-bottom: .5rem;
   width: 164px;
   margin-right: 35px;
   i {
     margin-left: 10px;
+    margin-bottom: -20px;
   }
 }
