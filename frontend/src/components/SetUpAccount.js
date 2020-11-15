@@ -53,7 +53,7 @@ const SetUpAccount = () => {
             </div>
             <div className="row">
               <div className="form-group col-md-6">
-                  <label htmlFor="createPassword">Password (min. X characters)</label>
+                  <label htmlFor="createPassword">Password (min. 8 characters)</label>
                   <input type="password" className="form-control" name="createPassword" id="createPassword" aria-describedby="createPasswordInput" placeholder=" " />
               </div>
               <div className="form-group col-md-6">
