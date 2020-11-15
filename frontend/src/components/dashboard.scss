@@ -1,1 +1,17 @@
 // @import "foundation/components/range-slider";
+
+.welcome-message {
+  display: flex;
+
+  h1 {
+    justify-content: flex-end;
+    align-items: space-between;
+    text-align: right;
+    order: 2;
+  }
+
+  .child-profile {
+    order: 1;
+    justify-content: flex-start;
+  }
+}

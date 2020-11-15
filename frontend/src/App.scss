@@ -1,13 +1,17 @@
+@font-face {
+font-family: 'KCCFAsolid-Regular';
+src: url('./assets/fonts/KCCFAsolid-Regular.ttf') format('truetype'),
+     url('./assets/fonts/KCCFAsolid-Regular-webfont.woff2') format('woff2'),
+     url('./assets/fonts/KCCFAsolid-Regular-webfont.woff') format('woff');
+font-weight: normal;
+}
+
 .App {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  h1, h2, h3, h4 {
-    // font-family: 'KCCFAsolid-Regular';
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,10 +25,12 @@
 }
 
 main {
-  padding: 2rem;
-  
+  padding: 3rem 2.5rem 4rem 2.5rem;
+
   h1, h2, h3, h4 {
     color: #0073ae;
+    font-family: 'KCCFAsolid-Regular', sans-serif;
+    font-weight: normal;
   }
 }
 
@@ -36,4 +42,42 @@ main {
   background-color: #f1f1f1;
   border-radius: 1.5rem;
   height: 3rem;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+.button-row {
+  display: flex;
+  align-items: baseline;
+  p {
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+.avatars img {
+  max-width: 14.666%;
+  margin: .5rem;
+}
+
+h2.childs-info {
+  margin-top: 3rem;
+}
+
+.booking {
+  margin: 1rem 0 2rem 0;
+}
+
+.monster {
+  display: flex;
+  justify-content: flex-end;
+  img {
+    max-height: 300px;
+  }
+}
+
+.robot {
+  margin-top: 2rem;
 }

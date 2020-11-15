@@ -35,7 +35,7 @@ const BuildProfile = () => {
           <div className="col-md-10">
             <h1>Build your child's profile</h1>
             <p>Dear caregivers, the information gathering in this section will help us to suggest the most appropriate activities to your child/tween/teen. It also helps us to tailor the education material that we will send you based on your child's unique diagnosis and side effects.</p>
-            <p>Medical/demographic information gathering in this section will remain confidential. Just qualified exercise professionals and Kids Cancer Care staff will have access. The information in this area won't be public and is collected under HIPPA compliance. <a href={"#"}>Learn more about HIPPA compliance.</a></p>
+            <p>Medical/demographic information gathering in this section will remain confidential. Just qualified exercise professionals and Kids Cancer Care staff will have access. The information in this area won't be public and is collected under HIPPA compliance. <a href="https://www.hhs.gov/hipaa/for-individuals/index.html" target="_blank">Learn more about HIPPA compliance.</a></p>
           </div>
           <div className="col-md-2">
             <img src={powerbotSmileWave} alt="Power bot smiling and waving" />
@@ -68,7 +68,7 @@ const BuildProfile = () => {
               <a href={"#"}><img src={avatar19} alt="Fuzzy blue monster with three eyes smiling and waving" /></a>
               <a href={"#"}><img src={avatar20} alt="Yellow monster with googley eyes sticking out tongue" /></a>
               <a href={"#"}><img src={avatar21} alt="One eyed red monster with horns smiling" /></a>
-              <a href={"#"}><img src={avatar22} alt="Fuzzy green one eyed monster smiling and waving " /></a>
+              <a href={"#"}><img src={avatar22} alt="Fuzzy green one eyed monster smiling and waving" /></a>
               <a href={"#"}><img src={avatar23} alt="Long body red one eyed monster smiling and waving" /></a>
               <a href={"#"}><img src={avatar24} alt="Dark blue monster with long legs smiling" /></a>
             </div>
@@ -76,7 +76,7 @@ const BuildProfile = () => {
         </div>
         <div className="row">
           <div className="col-md-12">
-            <h2>Child's Information</h2>
+            <h2 className="childs-info">Child's Information</h2>
             <ChildInformation />
           </div>
         </div>

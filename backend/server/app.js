@@ -4,11 +4,13 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import logger from 'morgan';
 import expressValidator from 'express-validator';
+import nodemailer from 'nodemailer';
 
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
 import recommendationsRouter from './routes/recommendations';
 import activityRouter from './routes/activity';
+import emailRouter from './routes/email';
 
 const app = express();
 
@@ -24,5 +26,6 @@ app.use('/api', indexRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/recommendations', recommendationsRouter);
 app.use('/api/activity', activityRouter);
+app.use('/api/email', emailRouter);
 
 export default app;
